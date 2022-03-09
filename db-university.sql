@@ -1,6 +1,7 @@
 -- SELECT
 
 -- 1. Selezionare tutti gli studenti nati nel 1990 (160)
+    SELECT `name`, `surname` FROM `students` WHERE YEAR(`date_of_birth`) = 1990 
 -- 2. Selezionare tutti i corsi che valgono più di 10 crediti (479)
 -- 3. Selezionare tutti gli studenti che hanno più di 30 anni laurea (286)
 -- 5. Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del 20/06/2020 (21)
